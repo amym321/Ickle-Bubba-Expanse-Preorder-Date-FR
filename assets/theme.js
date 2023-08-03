@@ -1903,7 +1903,7 @@ if (console && console.log) {
 
       // update the pre-order date & cart attribute - am
       updateOrderDate: function(preorder, today, preorderS, preorderISO) {
-        var preorderText = 'Order to be dispatched by '+ preorder;
+        var preorderText = 'Commande à expédier pour le '+ preorder;
 
         if (preorderS > today) {
           this.form.querySelector(selectors.orderDate).innerHTML = preorderText;
@@ -8408,12 +8408,12 @@ if (console && console.log) {
           if (variantMetafield.variant_id == variant.id) {
             if (variantMetafield.metafield_value !== false) {
               if (variantMetafield.metafield_value_s > today) {
-                $("#hidden-current-variant-metafield").html("Order today for dispatch by "+variantMetafield.metafield_value);
+                $("#hidden-current-variant-metafield").html("Commandez aujourd'hui pour une expédition avant le "+variantMetafield.metafield_value);
                 $("#hidden-current-variant-metafield").show();
-                $("#hidden-current-variant-message").html("We will fulfill the item as soon as it becomes available");
+                $("#hidden-current-variant-message").html("Nous répondrons à l'article dès qu'il sera disponible.");
                 $("#hidden-current-variant-message").show();
                 //$(".AddToCartText").html("PRE ORDER"); // goes back to ATC automatically on next variant change if necessary
-                $("#atc").html("PRE ORDER"); // goes back to ATC automatically on next variant change if necessary
+                $("#atc").html("PRÉ-COMMANDER"); // goes back to ATC automatically on next variant change if necessary
                 $(".gf_p-dynamic-checkout-button").hide();
               } else {
                 // $(".AddToCartText").html("ADD TO CART");

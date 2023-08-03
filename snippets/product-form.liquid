@@ -52,11 +52,11 @@
             {% assign first-variant-metafield-date =  variant.metafields.custom.pre_order_date  | date: "%d/%m"%}
             <div id="preorder-pdp-date" data-variant-date="{{metafield-date}}">
               <span id="hidden-current-variant-metafield" data-var-title="{{variant.title}}">
-                Order today for dispatch by {{variant-date}}</span>
+                Commandez aujourd'hui pour une expédition avant le {{variant-date}}</span>
             </div>
             <div id="preorder-pdp-msg">
               <span id="hidden-current-variant-message" data-date="{{metafield-date}}">
-                We will fulfill the item as soon as it becomes available</span>
+                Nous répondrons à l'article dès qu'il sera disponible.</span>
             </div>
           {% else %}
             <div id="preorder-pdp-date" data-variant-date="{{metafield-date}}">
@@ -154,7 +154,7 @@
     var dateText = document.getElementById('hidden-current-variant-message').innerHTML;
 
     if (dateText) {
-      document.getElementById("atc").innerHTML = "PRE ORDER";
+      document.getElementById("atc").innerHTML = "PRÉ-COMMANDER";
     } else {
       console.log('log) not preorder');
     }
