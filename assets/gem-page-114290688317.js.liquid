@@ -42,9 +42,17 @@
   // var $module = jQuery('#m-1679396479969').children('.module');
   // You can add custom Javascript code right here.
 })( window.GemQuery || jQuery );
-  
-    
-  
+  (function( jQuery ){
+  // var $module = jQuery('#m-1691060383139').children('.module');
+  // You can add custom Javascript code right here.
+console.log("before clicking button");
+
+$(".form").click(function(e){
+  exponea.showBanner('644baa47865aa2fee06b54cb');
+  console.log("after clicking button");
+});
+})( window.GemQuery || jQuery );
+
     
   
     
