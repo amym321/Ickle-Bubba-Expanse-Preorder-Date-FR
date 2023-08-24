@@ -170,6 +170,11 @@
         displayCurrency: true
     });
 })(window.GemQuery || jQuery);
+  
+    (function( jQuery ){
+  // var $module = jQuery('#m-1692808163285').children('.module');
+  // You can add custom Javascript code right here.
+})( window.GemQuery || jQuery );
   (function(jQuery) {
   var $module = jQuery('#m-1680002509147').children('.module');
   var swatchText = $module.attr('data-swatch-text') != undefined ? $module.attr('data-swatch-text') : '1';
@@ -202,63 +207,9 @@
 })( window.GemQuery || jQuery );
   
     (function( jQuery ){
-  try {
-    var $module = jQuery('#m-1680002509123').children('.module');
-    var single = $module.attr('data-single');
-    var openDefault = $module.attr('data-openDefault');
-    var openTab = $module.attr('data-openTab');
-    var mode = jQuery('.gryffeditor').hasClass('editing') ? 'dev' : 'production';
-
-    if(openDefault == 0 || openDefault == '0') {
-      openTab = '0';
-    }
-
-    $module.gfAccordion({
-      single: single,
-      openTab: openTab,
-      mode: mode,
-      onChanged: function() {	
-        // Fix (P) Desc read more bug	
-        $module.find('.module-wrap[data-label="(P) Description"]').each(function(index, el) {	
-          if (jQuery(el).children('.module').data('gfv3productdesc') != undefined) {	
-            jQuery(el).children(".module").data("gfv3productdesc").initReadMore();	
-          }	
-        })	
-      }
-    });
-
-    var borderColor = $module.attr('data-borderColor');
-    var borderSize = $module.attr('data-borderSize');
-
-    $module.children('[data-accordion]').children('[data-control]').css('border-bottom', borderSize + ' solid ' + borderColor);
-    $module.children('[data-accordion]').children('[data-content]').children().css('border-bottom', borderSize + ' solid ' + borderColor);
-  } catch(err) {}
-})( window.GemQuery || jQuery );
-  
-    
-  
-    (function( jQuery ){
-  var $module = jQuery('#m-1680002509176').children('.module');
-  $module.gfV3ProductDesc();
-})( window.GemQuery || jQuery );
-  
-    
-  (function( jQuery ){
-  // var $module = jQuery('#m-1680002509155').children('.module');
+  // var $module = jQuery('#m-1692808929760').children('.module');
   // You can add custom Javascript code right here.
 })( window.GemQuery || jQuery );
-    
-  
-    (function( jQuery ){
-  // var $module = jQuery('#m-1680002509154').children('.module');
-  // You can add custom Javascript code right here.
-})( window.GemQuery || jQuery );
-  
-    
-  
-    
-  
-    
   
     
   
@@ -342,10 +293,6 @@
     $module.gfYoutube();
   }
 })( window.GemQuery || jQuery );
-  
-    
-  
-    
   
     
   
@@ -572,8 +519,10 @@
   
     
   
+    
+  
     (function( jQuery ){
   // var $module = jQuery('#m-1683102321968').children('.module');
   // You can add custom Javascript code right here.
 })( window.GemQuery || jQuery );
-  window.__gfFlowActions = []; window.__gfFlowActions.push([{"source":{"id":"#e-1692799152298","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152259","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#m-1692799152266"},"events":[{"key":"click"}],"targets":[{"id":"#e-1686063777164","actions":[{"key":"scrollToId","type":2,"data":{"delay":0,"duration":500,"marginTop":30}}],"rename":"Text Block: #e-1686063777164"},{"id":"#m-1686063777085","actions":[{"key":"show","type":2,"data":{"delay":0,"duration":50}}],"rename":"Liquid: #m-1686063777085"}],"disableOn":["md","xs"]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152251","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152232","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152221","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152207","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152265","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152243","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692800098320","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692800467956","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692801027730","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]); window.__gfV1FlowActions.init();
+  window.__gfFlowActions = []; window.__gfFlowActions.push([{"source":{"id":"#e-1692800098320","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692799152259","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692800467956","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]);window.__gfFlowActions.push([{"source":{"id":"#e-1692803625315","target":".gf_button"},"events":[{"key":"click"}],"targets":[{"id":"#e-1682498763347","actions":[{"key":"slideUp","type":2,"data":{"delay":0,"duration":300}}],"rename":"Text Block: #e-1682498763347"}]}]); window.__gfV1FlowActions.init();
