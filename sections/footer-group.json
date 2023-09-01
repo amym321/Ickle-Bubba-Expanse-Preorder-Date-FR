@@ -11,7 +11,7 @@
             "heading": "ABONNEZ-VOUS !",
             "heading_size": "h2",
             "text": "<p>Inscrivez-vous dès maintenant pour rester informés, inspirés, connectés et bénéficier en priorité de promotions passionnantes, de remises spéciales et d'offres exclusives !<\/p>",
-            "content_alignment": "left"
+            "content_alignment": "center"
           }
         },
         "sections--20315996750141__b206a3f2-d8fb-47a3-97af-0736cd9c959a-timer-1": {
@@ -41,13 +41,12 @@
         "sections--20315996750141__b206a3f2-d8fb-47a3-97af-0736cd9c959a-timer-1",
         "sections--20315996750141__b206a3f2-d8fb-47a3-97af-0736cd9c959a-button-1"
       ],
-      "disabled": true,
       "settings": {
         "layout": "banner",
         "full_width": true,
         "color_scheme": "2",
         "blur_image": false,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }
