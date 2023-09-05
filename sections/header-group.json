@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "richtext": "<p>Economisez <strong>10%<\/strong> avec votre code exclusif à durée limitée : <strong>sept10<\/strong><\/p>",
-            "richtext_mobile": "<p>Economisez <strong>10%<\/strong> avec votre code exclusif à durée limitée : <strong>sept10<\/strong><\/p>"
+            "richtext_mobile": "<p>Economisez 10% avec le code : sept10<\/p>"
           }
         },
         "toolbar-0": {
@@ -26,7 +26,7 @@
         "toolbar-0"
       ],
       "custom_css": [
-        ".toolbar {background: #9fa3dd; color:#212121;}"
+        ".toolbar {background: #9fa3dd; color: #212121;}"
       ],
       "settings": {
         "announcement_center": true,
