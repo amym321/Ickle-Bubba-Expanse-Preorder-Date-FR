@@ -1,1 +1,69 @@
-{"type":"header","name":"t:sections.header-group.name","sections":{"toolbar":{"type":"toolbar","blocks":{"toolbar-0":{"type":"announcement","settings":{"richtext":"<p>Livraison gratuite à partir de 50 € d'achat<\/p>","richtext_mobile":"<p>Livraison gratuite à partir de 50 € d'achat<\/p>"}}},"block_order":["toolbar-0"],"settings":{"announcement_center":true,"toolbar_social":false,"show_locale_selector":false,"show_currency_selector":false,"show_currency_flags":false}},"header":{"type":"header","blocks":{"ad2bad15-29dc-46a4-a196-84f030533acd":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/IB-main-logo-01.png","desktop_logo_width":290,"mobile_logo_width":180}}},"block_order":["ad2bad15-29dc-46a4-a196-84f030533acd"],"settings":{"main_menu_link_list":"main-menu","main_menu_alignment":"center","mega_products":true,"header_sticky":true,"header_footer_menu":true,"sticky_index":false,"sticky_collection":false}}},"order":["toolbar","header"]}
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "toolbar": {
+      "type": "toolbar",
+      "blocks": {
+        "40a7359c-513a-42b9-ba1f-d8a6b1f173e2": {
+          "type": "announcement",
+          "settings": {
+            "richtext": "<p>Economisez <strong>10%<\/strong> avec votre code exclusif à durée limitée : <strong>sept10<\/strong><\/p>",
+            "richtext_mobile": "<p>Economisez <strong>10%<\/strong> avec votre code exclusif à durée limitée : <strong>sept10<\/strong><\/p>"
+          }
+        },
+        "toolbar-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "richtext": "<p>Livraison gratuite à partir de 50 € d'achat<\/p>",
+            "richtext_mobile": "<p>Livraison gratuite à partir de 50 € d'achat<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "40a7359c-513a-42b9-ba1f-d8a6b1f173e2",
+        "toolbar-0"
+      ],
+      "custom_css": [
+        ".toolbar {background: #9fa3dd; color:#212121;}"
+      ],
+      "settings": {
+        "announcement_center": true,
+        "toolbar_social": false,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_currency_flags": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "ad2bad15-29dc-46a4-a196-84f030533acd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/IB-main-logo-01.png",
+            "desktop_logo_width": 290,
+            "mobile_logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "ad2bad15-29dc-46a4-a196-84f030533acd"
+      ],
+      "settings": {
+        "main_menu_link_list": "main-menu",
+        "main_menu_alignment": "center",
+        "mega_products": true,
+        "header_sticky": true,
+        "header_footer_menu": true,
+        "sticky_index": false,
+        "sticky_collection": false
+      }
+    }
+  },
+  "order": [
+    "toolbar",
+    "header"
+  ]
+}
